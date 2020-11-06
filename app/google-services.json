@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150221623980",
+    "firebase_url": "https://database-firebase-da190.firebaseio.com",
+    "project_id": "database-firebase-da190",
+    "storage_bucket": "database-firebase-da190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150221623980:android:f8def467cc318b9c9b8509",
+        "android_client_info": {
+          "package_name": "kg.nurik.databasefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150221623980-2erhftpuvvckrl3ah3iu883m8376k3iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX8THi46sybiIxsSW2EMMa7q6YncAFdls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150221623980-2erhftpuvvckrl3ah3iu883m8376k3iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

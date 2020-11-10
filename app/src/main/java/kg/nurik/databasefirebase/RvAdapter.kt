@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
-import kg.nurik.databasefirebase.model.NewsItem
+import kg.nurik.databasefirebase.data.model.model.NewsItem
 import kotlinx.android.synthetic.main.item_recyclerview.view.*
 
 class RvAdapter : RecyclerView.Adapter<RvAdapter.Viewholder>() {
@@ -36,7 +36,7 @@ class RvAdapter : RecyclerView.Adapter<RvAdapter.Viewholder>() {
             itemView.tvTitle.text = point.title
             itemView.tvDesc.text = point.desc
 
-            Picasso.get().load(point.image).into(itemView.itemImage)
+            Picasso.get().load(point.image).resize(100,100).centerCrop().into(itemView.itemImage)
         }
     }
 }

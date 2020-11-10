@@ -1,4 +1,4 @@
-package kg.nurik.databasefirebase.model
+package kg.nurik.databasefirebase.data.model.model
 
 data class NewsItem(
     var desc: String = "",

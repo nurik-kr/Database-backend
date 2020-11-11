@@ -1,16 +1,16 @@
-package kg.nurik.databasefirebase.ui
+package kg.nurik.databasefirebase.ui.main
 
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.observe
 import kg.nurik.databasefirebase.R
 import kg.nurik.databasefirebase.RvAdapter
 import kotlinx.android.synthetic.main.activity_main.*
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
-    private val viewModel by viewModels<MainViewModel>()
+    private val viewModel by viewModel<MainViewModel>()
     private val adapter = RvAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Database Firebase</string>
+    <string name="det_str">Детальная страница</string>
 </resources>

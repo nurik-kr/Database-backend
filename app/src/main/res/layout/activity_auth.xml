@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".ui.auth.AuthActivity">
 
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/etInputNumber"
         android:layout_width="match_parent"
@@ -36,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:hint="Введите код"
-        android:text="000000"
         android:inputType="number"
+        android:text="000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSentPhone" />
@@ -46,10 +55,10 @@
         android:id="@+id/btnSentCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Отправить смс код"
         android:padding="16dp"
+        android:text="Отправить смс код"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etInputCode"/>
+        app:layout_constraintTop_toBottomOf="@+id/etInputCode" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

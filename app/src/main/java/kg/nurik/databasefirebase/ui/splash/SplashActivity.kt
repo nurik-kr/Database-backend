@@ -28,6 +28,7 @@ class SplashActivity : AppCompatActivity() {
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     startActivity(Intent(this, MainActivity::class.java))
+                    finish()
                 } else {
                     startActivity(Intent(this, AuthActivity::class.java))
                 }
